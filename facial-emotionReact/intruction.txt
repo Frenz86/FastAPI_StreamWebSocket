@@ -1,0 +1,16 @@
+-server API:
+   -- python main.py
+
+- frontend
+
+cd emotion-recognition
+npm install react-scripts
+
+rm -rf node_modules
+rm -f package-lock.json
+
+npm cache clean --force
+npm install
+npm audit fix --force
+
+npm start
